@@ -63,7 +63,7 @@ namespace TpsLogger.Commands
         /// Gets or sets the permission required to use this command.
         /// </summary>
         [Description("The permission required to use this command.")]
-        public string RequiredPermission { get; set; } = "tps.display";
+        public string RequiredPermission { get; set; } = "tps.log";
 
         /// <summary>
         /// Gets or sets the response to send to a player when they lack permission to execute the command.
