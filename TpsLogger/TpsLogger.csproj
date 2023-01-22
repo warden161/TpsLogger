@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <AssemblyName>TpsLogger</AssemblyName>
-        <TargetFramework>net472</TargetFramework>
+        <TargetFramework>net48</TargetFramework>
         <LangVersion>9</LangVersion>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <Authors>Build</Authors>
@@ -14,7 +14,7 @@
 
     <ItemGroup>
         <PackageReference Include="DSharp4Webhook" Version="2.0.1" />
-        <PackageReference Include="EXILED" Version="5.2.1" />
+        <PackageReference Include="EXILED" Version="6.0.0-beta.25" />
         <PackageReference Include="StyleCop.Analyzers" Version="1.1.118" />
     </ItemGroup>
 

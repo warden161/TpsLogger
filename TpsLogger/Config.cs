@@ -16,6 +16,9 @@ namespace TpsLogger
         /// <inheritdoc/>
         public bool IsEnabled { get; set; } = true;
 
+        /// <inheritdoc/>
+        public bool Debug { get; set; }
+
         /// <summary>
         /// Gets or sets the command configs.
         /// </summary>
